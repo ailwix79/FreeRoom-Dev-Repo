@@ -20,3 +20,9 @@
 	escogido, el sistema genera una interfaz y un tipo de interacción con la base
 	de datos diferente (Estudiante, Profesor, Administrador), sin que la clase
 	Client o SocketServer tengan que conocer como han sido implementadas.
+	
+	OBSERVER
+	========
+	Cada vez que un botón es pulsado, este provoca una actualización de estado o notificación a la clase
+	encargada de manipular esa petición. Un ejemplo es el Login, cuando el botón es pulsaod, se
+	lanza la conexión a la base de datos para comprobar las credenciales.
