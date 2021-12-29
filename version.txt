@@ -1,0 +1,33 @@
+
+	FreeRoom Ver. 1
+	===============
+	Implementación de las funciones de estudiante al completo. Preparación del
+	interfaz gráfico principal.
+	
+	FreeRoom Ver. 2
+	===============
+	Implementación de la realización de reservas y sistema de registro. Añadidos
+	sistemas de búsqueda y visualización del horario semanal. Introducida
+	funcionalidad para leer datos de clases desde un fichero CSV.
+	
+	FreeRoom Ver. 3
+	===============
+	Implementación de la interfaz de Admin con dos nuevas funcionalidades, dar de
+	alta a usuarios y eliminar aulas del sistema. 
+	
+	Adición de un nuevo
+	campo de registro, la aplicación ya no posee un nivel de usuario no registrado.
+	Esto se realizó con el sistema de notificaciones en mente, aunque este
+	no ha sido implementado.
+	
+	Además, se ha tenido en cuenta el feedback recibido. Ahora la aplicación para comprobar
+	el login no pide todos los datos a la base de datos, utilizando la respuesta de esta
+	para determinar si el login es correcto.
+
+	GITHUB
+	======
+	https://github.com/ailwix79/FreeRoom-Dev-Repo
+
+	TRELLO
+	======
+	https://trello.com/b/USlO79YA/freeroom-sprint-backlog

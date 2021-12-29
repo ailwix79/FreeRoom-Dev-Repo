@@ -1,0 +1,22 @@
+
+	SINGLETON
+	=========
+	Aparte del patron Singleton del servidor, también se ha añadido otro para
+	la realización de conexiones a nuestra base de datos. Visible en la clase
+	ConnectionSingleton. Esto permite que se cree un único objeto
+	Connection, de forma que no haya más que una conexión abierta con la base de datos.
+
+	PROXY
+	====
+	En nuestro modelo de negocio y forma de entender la aplicación, la base de datos
+	utilizada no es más que una simulación o prueba de lo que en verdad sería
+	la base de datos del cliente. Las bases de datos son fácilmente
+	intercambiables modificando el fichero application.properties.
+
+	ABSTRACT FACTORY
+	===============
+	Aunque no sigue el criterio de poseer una clase padre abstracta, podría considerarse
+	que a la hora de realizar el login, en función del tipo de usuario
+	escogido, el sistema genera una interfaz y un tipo de interacción con la base
+	de datos diferente (Estudiante, Profesor, Administrador), sin que la clase
+	Client o SocketServer tengan que conocer como han sido implementadas.
