@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FreeRoomV2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FreeRoomV2_jar</output-path>
+    <root id="archive" name="FreeRoomV2.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/manifests/server-jar/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="FreeRoomV2" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/microsoft/sqlserver/mssql-jdbc/9.4.0.jre11/mssql-jdbc-9.4.0.jre11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

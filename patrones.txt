@@ -26,3 +26,10 @@
 	Cada vez que un botón es pulsado, este provoca una actualización de estado o notificación a la clase
 	encargada de manipular esa petición. Un ejemplo es el Login, cuando el botón es pulsaod, se
 	lanza la conexión a la base de datos para comprobar las credenciales.
+
+
+	FACHADA
+	================
+	La clase Client actúa como fachada para toda la funcionalidad que realiza el servidor como es
+	el filtrado de datos en solicitudes, validar credenciales de acceso, operaciones de añadir o eliminar datos
+	etc.
