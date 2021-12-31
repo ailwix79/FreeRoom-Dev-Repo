@@ -12,8 +12,6 @@
 	
 	FreeRoom Ver. 3
 	===============
-	Implementación de la interfaz de Admin con dos nuevas funcionalidades, dar de
-	alta a usuarios y eliminar aulas del sistema. 
 	
 	Adición de un nuevo
 	campo de registro, la aplicación ya no posee un nivel de usuario no registrado.
@@ -23,6 +21,25 @@
 	Además, se ha tenido en cuenta el feedback recibido. Ahora la aplicación para comprobar
 	el login no pide todos los datos a la base de datos, utilizando la respuesta de esta
 	para determinar si el login es correcto.
+
+	BOTON REFRESCAR
+	Permite actualizar los datos mostrados en datos con nuevos datos del servidor.
+
+	INTERFAZ ADMINISTRADOR
+	Se incluye por primera vez acceso al panel de administrador
+
+	FUNCIONALIDADES ADMINISTRADOR
+	
+	- GESTION DE USUARIOS: ver, añadir y eliminar usuarios con interfaz muy amigable y fácil de utilizar.
+	- RESERVAS SIN LIMITE DE TIEMPO: el administrador puede realizar reservas sin el limite de tiempo 
+	a diferencia de los usuarios de tipo profesor.
+	- GESTION DE AULAS: se añade la funcionalidad de añadir y eliminar aulas utilizando la interfaz.
+	- CARGAR DATOS DESDE FICHERO CSV: se añade la opción de cargar registros comodamente desde un fichero CSV.
+
+	MEJORAS EN LA INTERFAZ GRÁFICA DE LA APLICACIÓN
+	En esta versión se ha depurado el código y se ha buscado mejorar el aspecto gráfico de la aplicación.
+	Además se han corregido varios errores de la versión anterior.
+
 
 	GITHUB
 	======
